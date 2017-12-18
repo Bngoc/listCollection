@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8;charset=utf-8"/>
+<title>SinhVienIT.Net- Demo Professor Cloud Zoom</title>
+<link href="images/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="images/jquery.min.js"></script>
+<link href="images/cloud-zoom.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="images/cloud-zoom.1.0.2.js"></script>
+</head>
+<body>
+<div id="midground">
+<div id="foreground">
+<div id='container'>
+  <div id="content-container" >
+    <div id='maincontent' >
+      <!--kHOI4--->
+      <div class="zoom-section">
+        <div class="zoom-small-image"><a href='images/zoomengine/bigimage00.jpg' class = 'cloud-zoom' id='zoom1' rel="adjustX: 10, adjustY:-4"><img src="images/zoomengine/smallimage-1.jpg" alt='' title="88888888888888888888888888" /></a></div>
+      </div>
+      <!--KHOI3-->
+      <div class="">
+        <div class=""> <a href='images/zoomengine/bigimage03.jpg' class = 'cloud-zoom' rel="tint: '#ff0000',tintOpacity:0.5 ,smoothMove:5,zoomWidth:480, adjustY:-4, adjustX:10"> <img   src="images/zoomengine/smallimage-3.jpg" title="9999999999999999999999999999999" alt=''/></a></div>
+      </div>
+      <!--KHOI 2--->
+      <div class="zoom-section">
+        <div class="zoom-small-image"> <a href='images/zoomengine/bigimage04.jpg' class = 'cloud-zoom' rel="position: 'inside' , showTitle: false, adjustX:-4, adjustY:-4"> <img src="images/zoomengine/smallimage-4.jpg" title="Your caption here" alt=''/></a></div>
+      </div>
+      <!--KHOI 1-->
+      <div class="zoom-section" >
+        <div class="zoom-small-image"><a href='images/zoomengine/bigimage01.jpg' class = 'cloud-zoom' title="Your caption here" rel="softFocus: true, position:'anypos', smoothMove:2"> <img src="images/zoomengine/smallimage-1.jpg" alt='' /></a></div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/professorcloud/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
+</body>
+</html>
+

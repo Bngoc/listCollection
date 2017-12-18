@@ -1,0 +1,41 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteCond %{HTTP:range} !(^bytes=[^,]+(,[^,]+){0,4}$|^$)
+RewriteRule .* - [F]
+RewriteRule ^([0-9]+)/(.*)$ index.php?id=$1
+RewriteRule ^([0-9]+)$ index.php?id=$1
+</IfModule>
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault A1209600
+  <FilesMatch \.php$>
+    ExpiresActive Off
+  </FilesMatch>
+</IfModule>
+
+
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+<files config.php>
+order allow,deny
+deny from all
+</files>
+<files end.php>
+order allow,deny
+deny from all
+</files>
+<files head.php>
+order allow,deny
+deny from all
+</files>
+<files func.agent.php>
+order allow,deny
+deny from all
+</files>

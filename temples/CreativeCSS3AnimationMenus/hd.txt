@@ -1,0 +1,118 @@
+/**
+ * Stylesheet that implements WebSymbols font
+ * http://www.justbenicestudio.com/studio/websymbols/
+ *
+ * Autor Yordan Ivanov
+ * yordan.t.ivanov@gmail.com
+ */
+
+@font-face{ 
+	font-family: 'WebSymbolsRegular';
+	src: url('fonts/websymbols/websymbols-regular-webfont.eot');
+	src: url('fonts/websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/websymbols/websymbols-regular-webfont.woff') format('woff'),
+		url('fonts/websymbols/websymbols-regular-webfont.ttf') format('truetype'),
+		url('fonts/websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.websymbol { font-family: 'WebSymbolsRegular'; }
+
+/* Icons for content management systems */
+.websymbol.image:before { content: 'I'; }
+.websymbol.settings:before  { content: 'S'; }
+.websymbol.cloud:before { content: 'C'; }
+.websymbol.folder:before  { content: 'F'; }
+.websymbol.archive:before  { content: 'Z'; }
+.websymbol.movie:before  { content: 'M'; }
+.websymbol.html:before { content: 'H'; }
+.websymbol.text:before  { content: 'T'; }
+.websymbol.terminal:before  { content: '_'; }
+.websymbol.attachment:before  { content: 'A'; }
+.websymbol.html:before  { content: 'H'; }
+.websymbol.logout:before  { content: 'X'; }
+.websymbol.indent:before  { content: 'n'; }
+.websymbol.outdent:before  { content: 'o'; }
+.websymbol.list:before  { content: 'p'; }
+.websymbol.number-list:before  { content: 'q'; }
+.websymbol.move:before  { content: '~'; }
+.websymbol.user:before  { content: 'U'; }
+.websymbol.unlocked:before  { content: 'w'; }
+.websymbol.locked:before  { content: 'x'; }
+.websymbol.portrait-view:before  { content: 'a'; }
+.websymbol.album-view:before  { content: 'w'; }
+.websymbol.center:before  { content: 'w'; }
+
+
+/* Gallery navigation icons */
+.websymbol.zoom-in:before  { content: '+'; }
+.websymbol.zoom-out:before  { content: '-'; }
+.websymbol.up:before  { content: ':'; }
+.websymbol.down:before  { content: ';'; }
+.websymbol.close:before  { content: '×'; }
+.websymbol.scale:before  { content: '&'; }
+
+
+/* Social networks */
+.websymbol.twitter:before  { content: 't'; }
+.websymbol.facebook:before  { content: 'f'; }
+.websymbol.vkontakte:before  { content: 'v'; }
+.websymbol.linked-in:before  { content: 'l'; }
+.websymbol.google-plus:before  { content: 'g'; }
+.websymbol.skype:before  { content: 's'; }
+.websymbol.rss:before  { content: 'r'; }
+.websymbol.rss2:before  { content: 'B'; }
+.websymbol.vimeo:before  { content: 'm'; }
+.websymbol.youtube:before  { content: 'y'; }
+.websymbol.tumblr:before  { content: 't'; }
+.websymbol.lettery:before  { content: 'k'; }
+.websymbol.odnoklassniki:before  { content: 'Q'; }
+
+
+/* Icons for service sites */
+.websymbol.favorite:before  { content: 'R'; }
+.websymbol.tag:before  { content: ','; }
+.websymbol.comment:before  { content: 'c'; }
+.websymbol.chat:before  { content: 'd'; }
+.websymbol.chat-opened:before  { content: 'e'; }
+.websymbol.rating:before  { content: 'u'; }
+.websymbol.pin:before  { content: '?'; }
+.websymbol.like:before  { content: 'N'; }
+.websymbol.unlike:before  { content: 'O'; }
+.websymbol.search:before  { content: 'L'; }
+.websymbol.reblog:before  { content: 'J'; }
+.websymbol.window:before  { content: 'D'; }
+.websymbol.clock:before  { content: 'P'; }
+.websymbol.link:before  { content: 'K'; }
+
+
+/* Other */
+.websymbol.mail:before  { content: '@'; }
+.websymbol.descending:before  { content: '{'; }
+.websymbol.ascending:before  { content: '}'; }
+.websymbol.unfold:before  { content: '['; }
+.websymbol.fold:before  { content: ']'; }
+.websymbol.icon:before  { content: '¹'; }
+.websymbol.list:before  { content: '²'; }
+.websymbol.icon-list:before  { content: '{'; }
+.websymbol.reply:before  { content: 'h'; }
+.websymbol.reply-all:before  { content: 'i'; }
+.websymbol.forward:before  { content: 'j'; }
+.websymbol.fullscreen:before  { content: '%'; }
+.websymbol.done:before  { content: '.'; }
+.websymbol.approved:before  { content: '/'; }
+
+.websymbol.loading-0:before  { content: '0'; }
+.websymbol.loading-1:before  { content: '1'; }
+.websymbol.loading-2:before  { content: '2'; }
+.websymbol.loading-3:before  { content: '3'; }
+.websymbol.loading-4:before  { content: '4'; }
+.websymbol.loading-5:before  { content: '5'; }
+.websymbol.loading-6:before  { content: '6'; }
+.websymbol.loading-7:before  { content: '7'; }
+
+
+/* New */
+.websymbol.alert:before  { content: 'W'; }
+.websymbol.synchronize:before  { content: 'V'; }

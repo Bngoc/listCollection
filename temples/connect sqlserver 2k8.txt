@@ -1,0 +1,3 @@
+
+$dsn = “Driver={SQL Server};Server=’xxx.xxx.xxx.xx’; Address=’xxx.xxx.xxx.xxINSTANCE_NAME, port#’;Network=DBMSSOCN;Database=’MY_DATABASE;”;
+"Driver={SQL Server};Server=(local);Database=MuOnline;
