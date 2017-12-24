@@ -1,0 +1,461 @@
+<html>
+<head>
+    <style type="text/css">
+
+        body, button, input, label, select, td, textarea {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        ._42ef {
+            overflow: hidden;
+        }
+
+        .UFIRow .UFIImageBlockContent {
+            margin: 0;
+            padding-left: 8px;
+        }
+
+        ._3-a6 .UFIRow .UFIImageBlockContent {
+            padding-left: 6px;
+        }
+
+        ._fmi {
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #dddfe2;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        ._613v {
+            border-radius: 16px;
+            padding-left: 6px;
+        }
+
+        .UFIMentionsInputWrap, .UFICommentContainer, .UFIInputContainer {
+            position: relative;
+        }
+
+        ._3-a6._1blz ._fmi {
+            border-color: #ced0d4;
+        }
+
+        #facebook ._-kb div {
+            font-family: inherit;
+        }
+
+        ._fmi ._2xwx {
+            flex-grow: 1;
+            min-width: 0;
+            word-break: break-word;
+        }
+
+        ._1osa {
+            left: -99999px;
+            opacity: 0;
+            position: absolute;
+        }
+
+        #facebook ._-kb button, #facebook ._-kb input, #facebook ._-kb label, #facebook ._-kb select, #facebook ._-kb td, #facebook ._-kb textarea {
+            font-family: inherit;
+            letter-spacing: inherit;
+        }
+
+        .UFIAddComment .UFIAddCommentInput._1osb {
+            height: auto;
+        }
+
+        ._5yk1 {
+            background: #fff;
+            border: 1px solid #bdc7d8;
+            box-sizing: border-box;
+            cursor: text;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 11px;
+            padding: 3px;
+        }
+
+        body ._1osb {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            line-height: 16px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        ._fmi ._2xww {
+            border: 0 !important;
+        }
+
+        ._613v ._2xww {
+            background-color: transparent !important;
+            line-height: 1.5;
+        }
+
+        .UFIAddComment .UFIAddCommentInput {
+            display: block;
+            height: 20px;
+        }
+
+        ._5vsj .UFIAddComment .UFIAddCommentInput, ._5vsj .UFIAddComment .UFIAddCommentInput._1osc {
+            min-height: 32px;
+            padding-bottom: 7px;
+            padding-top: 7px;
+        }
+
+        ._5vsj._3-a6._4eno .UFIAddComment .UFIAddCommentInput, ._5vsj._3-a6._4eno .UFIAddComment .UFIAddCommentInput._1osc {
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+
+        ._3-a6._4eno .UFIAddComment .UFIAddCommentInput._1osb {
+            font-size: 13px;
+            line-height: 16px;
+        }
+
+        ._fmi ._5yk2 {
+            padding-right: 0 !important;
+        }
+
+        .UFIAddCommentWithPhotoAttacher ._1osb ._5yk2, .UFIAddCommentWithPhotoAttacher ._1os9 {
+            padding-right: 29px;
+        }
+
+        .UFIStickersEnabledInput ._1osb ._5yk2, .UFIStickersEnabledInput ._1os9 {
+            padding-right: 57px;
+        }
+
+        .UFIGifEnabledInput ._1osb ._5yk2, .UFIGifEnabledInput ._1os9 {
+            padding-right: 83px;
+        }
+
+        ._5rp7, ._5rpb, ._5rpu {
+            height: inherit;
+            text-align: initial;
+        }
+
+        ._5rp7 {
+            position: relative;
+        }
+
+        ._1p1t {
+            color: #90949c;
+            position: absolute;
+            /* z-index: 1; */
+        }
+
+        ._1p1t {
+            color: #90949c;
+            position: absolute;
+            /* z-index: 1; */
+        }
+
+        ._5rp7, ._5rpb, ._5rpu {
+            height: inherit;
+            text-align: initial;
+        }
+
+        ._5rpb {
+            background-color: rgba(255, 255, 255, 0);
+            border-left: .1px solid transparent;
+            position: relative;
+            z-index: 1;
+        }
+
+        ._5rp7, ._5rpb, ._5rpu {
+            height: inherit;
+            text-align: initial;
+        }
+
+        ._1mj {
+            direction: ltr;
+            text-align: left;
+        }
+
+        ._1mf {
+            position: relative;
+            white-space: pre-wrap;
+        }
+
+        ._1mf {
+            position: relative;
+            white-space: pre-wrap;
+        }
+
+        ._1mj {
+            direction: ltr;
+            text-align: left;
+        }
+
+        .UFICommentAttachmentButtons {
+            bottom: 0;
+            height: 24px;
+            position: absolute;
+            right: 0;
+        }
+
+        ._fmi ._fmk {
+            align-self: flex-end;
+            display: flex;
+            height: 24px;
+            margin: 4px 0 4px auto;
+            padding-right: 4px;
+            position: static;
+        }
+
+        a {
+            color: #365899;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        ._5vsj ._fmk {
+            height: 32px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        ._r1a {
+            align-items: center;
+            cursor: pointer;
+            display: flex !important;
+            outline: none;
+            padding: 0 6px !important;
+        }
+
+        ._5f0v {
+            outline: none;
+        }
+
+        #facebook ._-kb a {
+            font-family: inherit;
+        }
+
+        .UFICommentEmojiIcon {
+            background-image: url(./img/P3B4Bg68Obb.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -17px -303px;
+            height: 16px;
+            width: 16px;
+        }
+
+        ._15i7 .UFICommentEmojiIcon {
+            background-image: url(./img/62ZBctcmBfR.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -17px -121px;
+            height: 16px;
+            width: 16px;
+        }
+
+        ._r1a {
+            align-items: center;
+            cursor: pointer;
+            display: flex !important;
+            outline: none;
+            padding: 0 6px !important;
+        }
+
+        ._m {
+            position: relative;
+        }
+
+        .UFIPhotoAttachLinkWrapper {
+            cursor: pointer;
+            display: inline-block;
+            overflow: hidden;
+            padding: 6px 8px;
+        }
+
+        .UFIStickersEnabledInput .UFIPhotoAttachLinkWrapper {
+            padding: 6px 3px;
+        }
+
+        .UFICommentPhotoIcon {
+            background-image: url(./img/P3B4Bg68Obb.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -80px -58px;
+            display: block;
+            height: 12px;
+            width: 15px;
+        }
+
+        ._5op2 .UFICommentPhotoIcon {
+            background-image: url(./img/P3B4Bg68Obb.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -68px -286px;
+            height: 16px;
+            width: 16px;
+        }
+
+        ._15i7 .UFICommentPhotoIcon {
+            background-image: url(./img/62ZBctcmBfR.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: 0 -104px;
+            height: 16px;
+            width: 16px;
+        }
+
+        ._m ._n {
+            bottom: 0;
+            cursor: inherit;
+            font-size: 1000px !important;
+            height: 300px;
+            margin: 0;
+            opacity: 0;
+            padding: 0;
+            position: absolute;
+            right: 0;
+        }
+
+        ._5f0v {
+            outline: none;
+        }
+
+        ._r1a {
+            align-items: center;
+            cursor: pointer;
+            display: flex !important;
+            outline: none;
+            padding: 0 6px !important;
+        }
+
+        .UFICommentGifButton {
+            cursor: pointer;
+            display: inline-block;
+            outline: 0;
+            padding: 0;
+        }
+
+        .UFICommentGifIcon {
+            background-image: url(./img/P3B4Bg68Obb.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -34px -286px;
+            height: 16px;
+            margin: 8px 2px 8px 6px;
+            width: 16px;
+        }
+
+        ._r1a .UFICommentGifIcon {
+            margin: 0 !important;
+        }
+
+        ._5op2 .UFICommentGifIcon {
+            background-image: url(./img/P3B4Bg68Obb.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -34px -320px;
+            height: 16px;
+            width: 16px;
+        }
+
+        ._15i7 .UFICommentGifIcon {
+            background-image: url(./img/62ZBctcmBfR.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: 0 -138px;
+            height: 16px;
+            width: 16px;
+        }
+
+        .UFICommentStickerButton {
+            cursor: pointer;
+            display: inline-block;
+            outline: 0;
+            padding: 5px 6px 5px 4px;
+        }
+
+        .UFICommentStickerIcon {
+            background-image: url(./img/P3B4Bg68Obb.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -6px -116px;
+            height: 14px;
+            width: 14px;
+        }
+
+        ._5op2 .UFICommentStickerIcon {
+            background-image: url(./img/P3B4Bg68Obb.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -51px -337px;
+            height: 16px;
+            width: 16px;
+        }
+
+        ._15i7 .UFICommentStickerIcon {
+            background-image: url(./img/62ZBctcmBfR.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: -17px -155px;
+            height: 16px;
+            width: 16px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="UFICommentContainer">
+    <div class="_fmi _613v UFIInputContainer">
+        <div class="_2xwx _289c" role="presentation">
+            <input class="_1osa mentionsHidden" name="add_comment_text" tabindex="-1">
+            <div class="UFIAddCommentInput _1osb _2xww _5yk1" role="presentation">
+                <div class="_5yk2" tabindex="-1">
+                    <div class="_5rp7">
+                        <div class="_1p1t">
+                            <div class="_1p1v" id="placeholder-6938d" style="white-space: pre-wrap;">Write a comment...
+                            </div>
+                        </div>
+                        <div class="_5rpb">
+                            <div aria-autocomplete="list" aria-controls="js_1bb" aria-multiline="true"
+                                 class="notranslate _5rpu" contenteditable="true" data-testid="ufi_comment_composer"
+                                 role="textbox" spellcheck="true"
+                                 style="outline: none; user-select: text; white-space: pre-wrap; word-wrap: break-word;"
+                                 aria-describedby="placeholder-6938d">
+                                <div data-contents="true">
+                                    <div class="" data-block="true" data-editor="6938d" data-offset-key="ajejt-0-0">
+                                        <div data-offset-key="ajejt-0-0" class="_1mf _1mj">
+                                            <span data-offset-key="ajejt-0-0"><br data-text="true">n mn mn mn iotjwo jowj owjoytijw ojw opjwoij w m nm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="_fmk UFICommentAttachmentButtons _5op2 _15i7 _2kwm">
+            <a aria-label="Insert an emoji" class="_r1a UFICommentEmojiButton _5f0v" data-hover="tooltip"
+               data-tooltip-alignh="center" data-tooltip-content="Insert an emoji" role="button" href="#" id="js_1b8">
+                <div class="UFICommentEmojiIcon"></div>
+            </a>
+            <div class="_r1a UFIPhotoAttachLinkWrapper _m" data-hover="tooltip" data-tooltip-alignh="center"
+                 data-tooltip-content="Attach a Photo or Video" role="presentation" id="js_1i4">
+                <span class="UFICommentPhotoIcon">
+                <input
+                        accept="video/*,  video/x-m4v, video/webm, video/x-ms-wmv, video/x-msvideo, video/3gpp, video/flv, video/x-flv, video/mp4, video/quicktime, video/mpeg, video/ogv, .ts, .mkv, image/*"
+                        aria-label="Attach a Photo or Video" class="_n _5f0v" name="file"
+                        title="Attach a Photo or Video"
+                        type="file" id="js_1b7"></span>
+            </div>
+            <a aria-label="Post a GIF" class="_r1a UFICommentGifButton _5f0v" data-hover="tooltip"
+               data-tooltip-alignh="center" data-tooltip-content="Post a GIF" role="button" href="#" id="js_1b9">
+                <div class="UFICommentGifIcon"></div>
+            </a>
+            <a aria-label="Post a sticker" class="_r1a UFICommentStickerButton _5f0v" data-hover="tooltip"
+               data-tooltip-alignh="center" data-tooltip-content="Post a sticker" role="button" href="#"
+               id="js_1ba">
+                <div class="UFICommentStickerIcon"></div>
+            </a></div>
+    </div>
+</div>
+</body>
+</html>
